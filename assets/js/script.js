@@ -40,6 +40,9 @@ fetch(url, options)
     })
     .catch(err => console.error('Erreur:', err));
 
+let sectionPopulaires = document.querySelector("section-populaires")
+
+sectionPopulaires.addEventListener("click")
 
 
     let searchImg = document.querySelector(".search img");
