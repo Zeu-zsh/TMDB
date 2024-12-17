@@ -3,46 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="./assets/js/script.js"></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link class="link-icon" rel="icon" href="./assets/img/Logo.png" type="image/x-icon">
+    <script defer src="../assets/js/series.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link class="link-icon" rel="icon" href="../assets/img/Logo.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"rel="stylesheet"/>
-    <title>Films Populaires</title>
+    <title>Séries Populaires</title>
   </head>
   <body>
     <header>
     <nav>
       <ul>
         <div>
-          <li><img src="./assets/img/logo.png" alt="Slyzz Teams" width="90px"/></li>
+          <li><img src="../assets/img/logo.png" alt="Slyzz Teams" width="90px"/></li>
         </div>
         <div class="nav-last">
           <div class="search">
             <li>
-              <img src="./assets/img/search.png" alt="Search" /><input
+              <img src="../assets/img/search.png" alt="Search" /><input
                 type="text"
                 placeholder="Search"
               />
             </li>
           </div>
           <div>
-            <li><a id="home" href="./index.html"><h2>Home</h2></a></li>
-            <li><a href="./pages/Films.html"><h2>Films</h2></a></li>
-            <li><a id="series" href="./pages/series.html"><h2>Séries</h2></a></li>
+            <li><a id="home" href="../index.html"><h2>Home</h2></a></li>
+            <li><a href="./Films.html"><h2>Films</h2></a></li>
+            <li><a id="series" href="./series.html"><h2>Séries</h2></a></li>
           </div>
         </div>
       </ul>
     </nav>
   </header>
     <main>
+      <a class="name-section" href="films"><p><h3>Séries</h3></p></a>
       <section class="section-scroll">
         <button id="popular">Populaires</button>
         <button id="now-playing">Du moment</button>
         <button id="upcoming">À venir</button>
         <button id="top-rated">Les mieux évalués</button>
       </section>
-      
-      <a class="name-section" id="films" href="films">Films</a>
       <div class="div-container">
         <button id="arrow-left" class="arrow-btn">
           <i class="fas fa-chevron-left"></i>
@@ -50,27 +49,10 @@
         <div class="popular-list-container">
           <div class="popular-list"></div>
         </div>
-        
         <button id="arrow-right" class="arrow-btn">
           <i class="fas fa-chevron-right"></i>
         </button>
       </div>
-
-
-      <a class="name-section" id="films" href="series">Séries</a>
-      <div class="div-container-series">
-        <button id="arrow-left-series" class="arrow-btn">
-          <i class="fas fa-chevron-left"></i>
-        </button>
-        <div class="popular-list-container-series">
-          <div class="popular-list-series"></div>
-        </div>
-        
-        <button id="arrow-right-series" class="arrow-btn">
-          <i class="fas fa-chevron-right"></i>
-        </button>
-      </div>
-
 
     </main>
   </body>
